@@ -1,0 +1,20 @@
+[
+  {
+    "include": [
+      "*://*.doubleclick.net/aclk?*",
+      "*://*.doubleclick.net/pagead/aclk?*"
+    ],
+    "exclude": [],
+    "action": "redirect",
+    "param": "adurl"
+  },
+  {
+    "include": [
+      "*://*.linkedin.com/safety/go/?*",
+      "*://*.linkedin.com/safety/go?*"
+    ],
+    "exclude": [],
+    "action": "redirect",
+    "param": "url"
+  }
+]

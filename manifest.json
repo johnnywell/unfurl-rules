@@ -1,0 +1,29 @@
+{
+  "name": "unfurl-rules",
+  "version": "2026.06.24",
+  "updated": "2026-06-24",
+  "lists": [
+    {
+      "id": "unfurl-clean-urls",
+      "title": "Unfurl — supplemental clean-URLs",
+      "file": "rules/unfurl-clean-urls.json",
+      "format": "brave-clean-urls",
+      "license": "MPL-2.0",
+      "maintainer": "Unfurl"
+    },
+    {
+      "id": "unfurl-debounce",
+      "title": "Unfurl — supplemental debounce",
+      "file": "rules/unfurl-debounce.json",
+      "format": "brave-debounce",
+      "license": "MPL-2.0",
+      "maintainer": "Unfurl"
+    }
+  ],
+  "upstream": [
+    { "id": "clearurls", "title": "ClearURLs", "license": "LGPL-3.0", "source": "https://rules2.clearurls.xyz/data.minify.json", "homepage": "https://docs.clearurls.xyz" },
+    { "id": "brave-clean-urls", "title": "Brave clean-urls", "license": "MPL-2.0", "source": "https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/clean-urls.json", "homepage": "https://github.com/brave/adblock-lists" },
+    { "id": "brave-debounce", "title": "Brave debounce", "license": "MPL-2.0", "source": "https://raw.githubusercontent.com/brave/adblock-lists/master/brave-lists/debounce.json", "homepage": "https://github.com/brave/adblock-lists" },
+    { "id": "adguard-url-tracking", "title": "AdGuard URL Tracking", "license": "GPL-3.0", "source": "https://filters.adtidy.org/extension/ublock/filters/17.txt", "homepage": "https://github.com/AdguardTeam/AdguardFilters" }
+  ]
+}
