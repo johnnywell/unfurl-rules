@@ -8,7 +8,7 @@ Nothing here is hidden, and nothing is rebranded. Unfurl runs the open rule sets
 
 | List | File | Format | License |
 |------|------|--------|---------|
-| Unfurl — supplemental clean-URLs | `rules/unfurl-clean-urls.json` | brave-clean-urls | MPL-2.0 |
+| Unfurl — supplemental clean-URLs | `rules/unfurl-clean.txt` | abp-removeparam | MPL-2.0 |
 | Unfurl — supplemental debounce | `rules/unfurl-debounce.json` | brave-debounce | MPL-2.0 |
 
 ## The lists Unfurl builds on (fetched from their canonical sources, not bundled here)
@@ -26,7 +26,7 @@ These keep their own names and licenses inside the app, exactly as their authors
 Unfurl fetches these over a CDN, cached:
 
 ```
-https://cdn.jsdelivr.net/gh/johnnywell/unfurl-rules@main/rules/unfurl-clean-urls.json
+https://cdn.jsdelivr.net/gh/johnnywell/unfurl-rules@main/rules/unfurl-clean.txt
 ```
 
 Updating a rule here ships to every install **without an App Store review**.

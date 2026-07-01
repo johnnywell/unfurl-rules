@@ -1,0 +1,26 @@
+! Title: Unfurl — own clean-urls additions
+! Description: Supplementary $removeparam rules for gaps the upstream lists
+!   (ClearURLs / Brave / AdGuard URL Tracking) don't cover. Param-strip only, in
+!   ABP $removeparam syntax so they're upstreamable to AdGuard/uBO and run in
+!   Unfurl's ABP pass alongside them. Redirect-unwrap rules live in
+!   unfurl-debounce.json — ABP $removeparam can't express extract-and-redirect.
+! License: MPL-2.0
+! Homepage: https://github.com/johnnywell/unfurl-rules
+!
+! --- Google Ads ValueTrack cluster (appended to ad landing pages, all hosts) ---
+$removeparam=adgroupid
+$removeparam=adposition
+$removeparam=campaignid
+$removeparam=creative
+$removeparam=dclid
+$removeparam=devicemodel
+$removeparam=gad_campaignid
+$removeparam=gad_source
+$removeparam=gbraid
+$removeparam=loc_int_ph
+$removeparam=loc_interest_ms
+$removeparam=loc_physical_ms
+$removeparam=matchtype
+$removeparam=placement
+$removeparam=targetid
+$removeparam=wbraid
