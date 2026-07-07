@@ -1,7 +1,7 @@
 {
   "name": "unfurl-rules",
-  "version": "2026.07.01",
-  "updated": "2026-07-01",
+  "version": "2026.07.06",
+  "updated": "2026-07-06",
   "lists": [
     {
       "id": "unfurl-clean",
@@ -16,6 +16,14 @@
       "title": "Unfurl — supplemental debounce",
       "file": "rules/unfurl-debounce.json",
       "format": "brave-debounce",
+      "license": "MPL-2.0",
+      "maintainer": "Unfurl"
+    },
+    {
+      "id": "unfurl-hosts",
+      "title": "Unfurl — redirector hosts (shorteners + interstitials)",
+      "file": "rules/unfurl-hosts.json",
+      "format": "unfurl-hosts",
       "license": "MPL-2.0",
       "maintainer": "Unfurl"
     }

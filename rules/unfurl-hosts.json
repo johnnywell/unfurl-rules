@@ -1,0 +1,32 @@
+{
+  "name": "unfurl-hosts",
+  "description": "Redirector host lists for Unfurl's network resolution. 'shorteners' are hosts worth resolving (their destination is only known by a server); 'interstitials' is the subset that answers 200 with an HTML page whose destination lives in the body (e.g. LinkedIn's lnkd.in). Updating this list adds coverage without an app update.",
+  "license": "MPL-2.0",
+  "shorteners": [
+    "adf.ly",
+    "amzn.to",
+    "bit.ly",
+    "buff.ly",
+    "cutt.ly",
+    "dlvr.it",
+    "fb.me",
+    "goo.gl",
+    "ift.tt",
+    "is.gd",
+    "j.mp",
+    "linktr.ee",
+    "lnkd.in",
+    "ow.ly",
+    "rb.gy",
+    "rebrand.ly",
+    "shorturl.at",
+    "t.co",
+    "tiny.cc",
+    "tinyurl.com",
+    "tr.ee",
+    "trib.al"
+  ],
+  "interstitials": [
+    "lnkd.in"
+  ]
+}

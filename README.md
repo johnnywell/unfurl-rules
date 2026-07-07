@@ -10,6 +10,7 @@ Nothing here is hidden, and nothing is rebranded. Unfurl runs the open rule sets
 |------|------|--------|---------|
 | Unfurl — supplemental clean-URLs | `rules/unfurl-clean.txt` | abp-removeparam | MPL-2.0 |
 | Unfurl — supplemental debounce | `rules/unfurl-debounce.json` | brave-debounce | MPL-2.0 |
+| Unfurl — redirector hosts | `rules/unfurl-hosts.json` | unfurl-hosts | MPL-2.0 |
 
 ## The lists Unfurl builds on (fetched from their canonical sources, not bundled here)
 
