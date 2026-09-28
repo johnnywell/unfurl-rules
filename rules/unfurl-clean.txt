@@ -24,3 +24,10 @@ $removeparam=matchtype
 $removeparam=placement
 $removeparam=targetid
 $removeparam=wbraid
+!
+! --- Klaviyo subscriber ID (all hosts, 2026-09-28) ---
+! A custom UTM that Klaviyo senders map to the recipient's profile ID (a
+! 26-char ULID), so it identifies the person, not the campaign. ClearURLs's
+! utm_* regex already strips it at copy-time, but Safari's click-time DNR rules
+! take literal names only, and AdGuard/Brave list Klaviyo's _kx but not this.
+$removeparam=utm_klaviyo_id
